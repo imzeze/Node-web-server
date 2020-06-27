@@ -22,7 +22,18 @@ script : {
 npm start
 ```
 
+
+
 <br/>
+
+## history 
+<details>
+  <summary>쿠키와 세션</summary>
+  <div markdown="1">    
+  
+  [쿠키 파싱](https://github.com/Jye019/Node-web-server/pull/1)  
+  </div>
+</details>
 <br/>
 <br/>
 
