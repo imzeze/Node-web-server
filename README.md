@@ -31,7 +31,7 @@ npm start
   <summary>쿠키와 세션</summary>
   <div markdown="1">    
   
-  [쿠키 파싱](https://github.com/Jye019/Node-web-server/pull/1)  
+  [쿠키 파싱](https://github.com/Jye019/Node-web-server/create-web-server/cookie-session)  
   </div>
 </details>
 <br/>
