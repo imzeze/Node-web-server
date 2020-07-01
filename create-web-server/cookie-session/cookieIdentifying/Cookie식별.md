@@ -20,5 +20,3 @@ if( url == 로그인 url ) {
     응답.end()
 } 
 ```
-
-## Session
