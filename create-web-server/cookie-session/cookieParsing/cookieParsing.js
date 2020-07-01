@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const parseCookies = (cookie = '') => { //cookie default 값을 ''으로 설정
+const parseCookies = (cookie = '') =>  //cookie default 값을 ''으로 설정
     cookie.split(';')
           .map(v => v.split('='))
           .map(([k, ...vs]) => [k, vs.join('=')])
@@ -9,7 +9,6 @@ const parseCookies = (cookie = '') => { //cookie default 값을 ''으로 설정
             acc[k.trim()] = decodeURIComponent(v);
             return acc;
           },{});
-};
 
 http.createServer((req, res) => {
     const cookies = parseCookies(req.headers.cookie);
