@@ -8,7 +8,7 @@ const parseCookies = (cookie = '') =>  //cookie default 값을 ''으로 설정
           .reduce((acc, [k, v]) => {
             acc[k.trim()] = decodeURIComponent(v);
             return acc;
-          },{});
+          },{});  
 
 http.createServer((req, res) => {
     const cookies = parseCookies(req.headers.cookie);
