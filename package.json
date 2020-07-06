@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jye019/Node-web-server/issues"
   },
-  "homepage": "https://github.com/Jye019/Node-web-server#readme"
+  "homepage": "https://github.com/Jye019/Node-web-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
