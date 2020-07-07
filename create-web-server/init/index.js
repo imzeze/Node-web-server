@@ -4,7 +4,7 @@ const fs = require('fs');
 http.createServer((req, res) => {
     fs.readFile(`${__dirname}/index.html`, (err, data) => {
         if(err) {
-            throw err;!
+            throw err;
         } 
         res.end(data);
     });
